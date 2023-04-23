@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.input-container {
+  margin: 12px 0;
+  display: flex;
+  gap: 12px;
+}
+
+.input-container .input {
+  width: 400px;
+  border: none;
+  font-size: 16px;
+}
+
+.input-container .input,
+.button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.button {
+  cursor: pointer;
+}
+.button:disabled {
+  cursor: not-allowed;
+  background-color: rgb(58, 57, 57);
+}
+
+.drag-image-container {
+  display: flex;
+  gap: 5px;
+  justify-content: baseline;
+  align-items: baseline;
+}
+
+.drag-image-container .label {
+  background-color: aliceblue;
+  border-radius: 6px;
+  color: gray;
+  padding: 4px;
+  margin: 6px 0;
+  cursor: pointer;
+}
